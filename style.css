@@ -1,0 +1,29 @@
+h1 {
+    color: rgb(43, 45, 45);
+}
+
+h2 {
+    color: rgb(135, 21, 21);
+}
+
+h3 {
+    color: white;
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.character-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.character {
+    flex: 300px;
+    border: 1px solid #ddd;
+    padding: 15px;
+}
