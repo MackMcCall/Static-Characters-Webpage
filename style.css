@@ -27,3 +27,8 @@ img {
     border: 1px solid #ddd;
     padding: 15px;
 }
+
+.details-img {
+    width: 500px;
+    height: 500px;
+}
