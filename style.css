@@ -106,3 +106,32 @@ button {
 button:hover {
     background-color: #0052a3;
 }
+
+/* =========== */
+
+.search-card {
+    width: 300px;
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-card input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.search-card .icon {
+    color: #888;
+    font-size: 16px;
+}
